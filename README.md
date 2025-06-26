@@ -62,5 +62,3 @@ The server will run at [http://localhost:3000](http://localhost:3000).
 
 - **Endpoint:** `GET /url/:shortId`
 - **Redirects** to the original URL and updates visit history.
-
-## Project Structure
