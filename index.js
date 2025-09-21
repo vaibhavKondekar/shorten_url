@@ -3,7 +3,7 @@ const urlRoute = require('./routes/url');
 const{ connectDB } = require('./connect');
 
 const app = express();
-const port = 3000;  
+const port = 8000;  
 
 connectDB('mongodb://localhost:27017/short-url')
 .then(() => {
